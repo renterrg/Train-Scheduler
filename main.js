@@ -13,7 +13,7 @@
 
 
   $('form').on('submit', function(event){
-    event.preventDefault();
+    
 
     var train_name = $('#name').val().trim();
     var destination = $('#destination').val().trim();
@@ -52,6 +52,7 @@
     row.append('<td>' + childSnapshot.val().minutes_away + '</td>');
 
     $('tbody').append(row);
+
 
   });
 
