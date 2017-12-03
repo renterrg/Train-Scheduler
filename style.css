@@ -10,16 +10,13 @@
 }
 
 #title {
-	border: solid white 3px;
+	border: solid white 1px;
 	border-radius: 10px;
 	width: 50%;
 	margin-left: 5em;
 	padding: 10px;
 }
 
-body {
-	background-color: #181819;
-}
 
 .panel-heading {
 	background-color: gray;
